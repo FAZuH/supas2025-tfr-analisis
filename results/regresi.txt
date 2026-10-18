@@ -1,0 +1,31 @@
+=== M1: tfr ~ imr + pct_lansia + migran_neto_risen ===
+n = 37
+
+prediktor                 coef   std err        t         p   CI 95% bawah CI 95% atas     VIF
+Intercept               2.3038    0.1436   16.044    0.0000         2.0116      2.5959     nan
+imr                     0.0189    0.0033    5.797    0.0000         0.0123      0.0256   1.791
+pct_lansia             -0.0361    0.0093   -3.888    0.0005        -0.0550     -0.0172   1.811
+migran_neto_risen       0.0547    0.0148    3.686    0.0008         0.0245      0.0848   1.043
+
+R2 = 0.8226 | adj R2 = 0.8065
+F = 51.011 (p = 1.731e-12)
+Breusch-Pagan LM = 0.804 (p = 0.8484)
+Shapiro-Wilk W = 0.9656 (p = 0.3022)
+Observasi dipakai = 37
+
+=== M2: tfr ~ imr + pct_lansia + migran_neto_risen + ikg ===
+n = 37
+
+prediktor                 coef   std err        t         p   CI 95% bawah CI 95% atas     VIF
+Intercept               2.2782    0.2223   10.249    0.0000         1.8255      2.7310     nan
+imr                     0.0188    0.0034    5.448    0.0000         0.0118      0.0258   1.938
+pct_lansia             -0.0350    0.0120   -2.928    0.0062        -0.0593     -0.0106   2.911
+migran_neto_risen       0.0538    0.0161    3.336    0.0022         0.0210      0.0866   1.196
+ikg                     0.0411    0.2699    0.152    0.8800        -0.5087      0.5908   2.843
+
+R2 = 0.8227 | adj R2 = 0.8006
+F = 37.132 (p = 1.346e-11)
+Breusch-Pagan LM = 2.308 (p = 0.6793)
+Shapiro-Wilk W = 0.9643 (p = 0.2751)
+Observasi dipakai = 37
+

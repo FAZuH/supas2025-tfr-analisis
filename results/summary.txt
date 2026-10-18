@@ -1,0 +1,83 @@
+========================================================================
+RINGKASAN ANALISIS STATISTIKA SUPAS 2025 (38 PROVINSI)
+========================================================================
+
+Catatan: seluruh rerata provinsi bersifat TIDAK TERTIMBANG (unweighted),
+sehingga tidak sama dengan angka nasional.
+
+--- 1. STATISTIK DESKRIPTIF TFR ---
+n           : 38
+mean        : 2.2895
+median      : 2.2500
+sd          : 0.2435
+cv          : 0.1064
+min         : 1.7900 (DKI Jakarta)
+q1          : 2.1700
+q3          : 2.4325
+iqr         : 0.2625
+max         : 2.7800 (Papua Pegunungan)
+max/min     : 1.5531
+
+--- 2. KORELASI TFR (Pearson r / Spearman rho) ---
+KORELASI TFR DENGAN INDIKATOR DEMOGRAFI LAIN (38 PROVINSI)
+
+variabel                 n        r       p_r      rho     p_rho  status (Pearson)
+------------------------------------------------------------------------------------------
+imr                     38    0.853    0.0000    0.882    0.0000  signifikan (p<0,05)
+cmr                     38    0.802    0.0000    0.870    0.0000  signifikan (p<0,05)
+u5mr                    38    0.848    0.0000    0.879    0.0000  signifikan (p<0,05)
+cdr                     38   -0.159    0.3418    0.012    0.9410  tidak signifikan
+pct_lansia              38   -0.714    0.0000   -0.685    0.0000  signifikan (p<0,05)
+dependency_ratio        38    0.397    0.0136    0.335    0.0397  signifikan (p<0,05)
+migran_neto_risen       37    0.260    0.1206    0.050    0.7683  tidak signifikan
+migran_keluar_seumur    38   -0.460    0.0037   -0.299    0.0678  signifikan (p<0,05)
+migran_masuk_seumur     38   -0.031    0.8519   -0.009    0.9589  tidak signifikan
+ikg                     38    0.729    0.0000    0.717    0.0000  signifikan (p<0,05)
+sex_ratio               38    0.592    0.0001    0.479    0.0024  signifikan (p<0,05)
+cbr                     38    0.905    0.0000    0.916    0.0000  signifikan (p<0,05)
+asfr15_19               38    0.492    0.0017    0.478    0.0024  signifikan (p<0,05)
+
+--- 3. REGRESI OLS ---
+=== M1: tfr ~ imr + pct_lansia + migran_neto_risen ===
+n = 37
+
+prediktor                 coef   std err        t         p   CI 95% bawah CI 95% atas     VIF
+Intercept               2.3038    0.1436   16.044    0.0000         2.0116      2.5959     nan
+imr                     0.0189    0.0033    5.797    0.0000         0.0123      0.0256   1.791
+pct_lansia             -0.0361    0.0093   -3.888    0.0005        -0.0550     -0.0172   1.811
+migran_neto_risen       0.0547    0.0148    3.686    0.0008         0.0245      0.0848   1.043
+
+R2 = 0.8226 | adj R2 = 0.8065
+F = 51.011 (p = 1.731e-12)
+Breusch-Pagan LM = 0.804 (p = 0.8484)
+Shapiro-Wilk W = 0.9656 (p = 0.3022)
+Observasi dipakai = 37
+
+=== M2: tfr ~ imr + pct_lansia + migran_neto_risen + ikg ===
+n = 37
+
+prediktor                 coef   std err        t         p   CI 95% bawah CI 95% atas     VIF
+Intercept               2.2782    0.2223   10.249    0.0000         1.8255      2.7310     nan
+imr                     0.0188    0.0034    5.448    0.0000         0.0118      0.0258   1.938
+pct_lansia             -0.0350    0.0120   -2.928    0.0062        -0.0593     -0.0106   2.911
+migran_neto_risen       0.0538    0.0161    3.336    0.0022         0.0210      0.0866   1.196
+ikg                     0.0411    0.2699    0.152    0.8800        -0.5087      0.5908   2.843
+
+R2 = 0.8227 | adj R2 = 0.8006
+F = 37.132 (p = 1.346e-11)
+Breusch-Pagan LM = 2.308 (p = 0.6793)
+Shapiro-Wilk W = 0.9643 (p = 0.2751)
+Observasi dipakai = 37
+
+--- 4. TIPOLOGI PROVINSI (median TFR = 2.2500, median IMR = 15.7550) ---
+TFR rendah-IMR rendah (n=16): Bali, Banten, DI Yogyakarta, DKI Jakarta, Jambi, Jawa Barat, Jawa Tengah, Jawa Timur, Kalimantan Barat, Kalimantan Timur, Kepulauan Bangka Belitung, Kepulauan Riau, Lampung, Riau, Sulawesi Utara, Sumatera Selatan
+TFR rendah-IMR tinggi (n=4): Gorontalo, Kalimantan Tengah, Sulawesi Selatan, Sulawesi Tengah
+TFR tinggi-IMR rendah (n=3): Kalimantan Selatan, Kalimantan Utara, Sumatera Barat
+TFR tinggi-IMR tinggi (n=15): Aceh, Bengkulu, Maluku, Maluku Utara, Nusa Tenggara Barat, Nusa Tenggara Timur, Papua, Papua Barat, Papua Barat Daya, Papua Pegunungan, Papua Selatan, Papua Tengah, Sulawesi Barat, Sulawesi Tenggara, Sumatera Utara
+
+--- 5. FIGURE ---
+figures/fig1_tren_nasional.{png,pdf}
+figures/fig2_scatter_tfr_imr.{png,pdf}
+figures/fig3_tfr_provinsi.{png,pdf}
+figures/fig4_scatter_lansia_tfr.{png,pdf}
+

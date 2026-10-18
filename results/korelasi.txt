@@ -1,0 +1,17 @@
+KORELASI TFR DENGAN INDIKATOR DEMOGRAFI LAIN (38 PROVINSI)
+
+variabel                 n        r       p_r      rho     p_rho  status (Pearson)
+------------------------------------------------------------------------------------------
+imr                     38    0.853    0.0000    0.882    0.0000  signifikan (p<0,05)
+cmr                     38    0.802    0.0000    0.870    0.0000  signifikan (p<0,05)
+u5mr                    38    0.848    0.0000    0.879    0.0000  signifikan (p<0,05)
+cdr                     38   -0.159    0.3418    0.012    0.9410  tidak signifikan
+pct_lansia              38   -0.714    0.0000   -0.685    0.0000  signifikan (p<0,05)
+dependency_ratio        38    0.397    0.0136    0.335    0.0397  signifikan (p<0,05)
+migran_neto_risen       37    0.260    0.1206    0.050    0.7683  tidak signifikan
+migran_keluar_seumur    38   -0.460    0.0037   -0.299    0.0678  signifikan (p<0,05)
+migran_masuk_seumur     38   -0.031    0.8519   -0.009    0.9589  tidak signifikan
+ikg                     38    0.729    0.0000    0.717    0.0000  signifikan (p<0,05)
+sex_ratio               38    0.592    0.0001    0.479    0.0024  signifikan (p<0,05)
+cbr                     38    0.905    0.0000    0.916    0.0000  signifikan (p<0,05)
+asfr15_19               38    0.492    0.0017    0.478    0.0024  signifikan (p<0,05)

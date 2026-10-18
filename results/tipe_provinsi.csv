@@ -1,0 +1,39 @@
+provinsi,region,tfr,imr,tipe
+Aceh,Sumatera,2.36,16.27,TFR tinggi-IMR tinggi
+Sumatera Utara,Sumatera,2.41,15.88,TFR tinggi-IMR tinggi
+Sumatera Barat,Sumatera,2.39,14.58,TFR tinggi-IMR rendah
+Riau,Sumatera,2.21,13.28,TFR rendah-IMR rendah
+Jambi,Sumatera,2.23,14.75,TFR rendah-IMR rendah
+Sumatera Selatan,Sumatera,2.18,14.66,TFR rendah-IMR rendah
+Bengkulu,Sumatera,2.27,16.89,TFR tinggi-IMR tinggi
+Lampung,Sumatera,2.23,13.53,TFR rendah-IMR rendah
+Kepulauan Bangka Belitung,Sumatera,2.2,14.53,TFR rendah-IMR rendah
+Kepulauan Riau,Sumatera,2.17,11.89,TFR rendah-IMR rendah
+DKI Jakarta,Jawa,1.79,9.26,TFR rendah-IMR rendah
+Jawa Barat,Jawa,2.05,12.84,TFR rendah-IMR rendah
+Jawa Tengah,Jawa,2.05,10.88,TFR rendah-IMR rendah
+DI Yogyakarta,Jawa,1.84,9.8,TFR rendah-IMR rendah
+Jawa Timur,Jawa,1.95,11.84,TFR rendah-IMR rendah
+Banten,Jawa,1.96,12.94,TFR rendah-IMR rendah
+Bali,Bali & Nusa Tenggara,2.02,11.51,TFR rendah-IMR rendah
+Nusa Tenggara Barat,Bali & Nusa Tenggara,2.38,21.03,TFR tinggi-IMR tinggi
+Nusa Tenggara Timur,Bali & Nusa Tenggara,2.72,22.21,TFR tinggi-IMR tinggi
+Kalimantan Barat,Kalimantan,2.25,14.83,TFR rendah-IMR rendah
+Kalimantan Tengah,Kalimantan,2.25,16.21,TFR rendah-IMR tinggi
+Kalimantan Selatan,Kalimantan,2.26,14.7,TFR tinggi-IMR rendah
+Kalimantan Timur,Kalimantan,2.09,13.47,TFR rendah-IMR rendah
+Kalimantan Utara,Kalimantan,2.28,14.76,TFR tinggi-IMR rendah
+Sulawesi Utara,Sulawesi,2.07,15.75,TFR rendah-IMR rendah
+Sulawesi Tengah,Sulawesi,2.25,23.99,TFR rendah-IMR tinggi
+Sulawesi Selatan,Sulawesi,2.17,15.76,TFR rendah-IMR tinggi
+Sulawesi Tenggara,Sulawesi,2.48,19.53,TFR tinggi-IMR tinggi
+Gorontalo,Sulawesi,2.24,26.12,TFR rendah-IMR tinggi
+Sulawesi Barat,Sulawesi,2.5,25.7,TFR tinggi-IMR tinggi
+Maluku,Maluku & Papua,2.44,25.66,TFR tinggi-IMR tinggi
+Maluku Utara,Maluku & Papua,2.38,24.45,TFR tinggi-IMR tinggi
+Papua Barat,Maluku & Papua,2.62,33.58,TFR tinggi-IMR tinggi
+Papua Barat Daya,Maluku & Papua,2.58,27.2,TFR tinggi-IMR tinggi
+Papua,Maluku & Papua,2.57,27.07,TFR tinggi-IMR tinggi
+Papua Selatan,Maluku & Papua,2.74,34.49,TFR tinggi-IMR tinggi
+Papua Tengah,Maluku & Papua,2.64,34.32,TFR tinggi-IMR tinggi
+Papua Pegunungan,Maluku & Papua,2.78,37.04,TFR tinggi-IMR tinggi
